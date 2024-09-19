@@ -1,0 +1,12 @@
+*{
+    font-family: 'Gill Sans';
+    background-repeat: repeat;
+    font-weight:100;
+}
+p{
+    color: #a99ffd;
+    border: 10px double black;
+}
+h1{
+    color: black;
+}
