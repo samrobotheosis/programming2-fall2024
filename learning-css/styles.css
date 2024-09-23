@@ -1,7 +1,7 @@
 *{
     font-family: 'Gill Sans';
     background-repeat: repeat;
-    font-weight:100;
+    font-weight: 100;
 }
 p{
     color: #a99ffd;
@@ -9,4 +9,16 @@ p{
 }
 h1{
     color: black;
+}
+.alert{
+    color: red;
+    font-weight: 600;
+    font-size: 30px;
+}
+#p1{
+    border: 10px double blue;
+}
+#para2{
+    text-align: center;
+    font-size: x-large;
 }
