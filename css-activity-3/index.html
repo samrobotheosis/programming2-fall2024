@@ -10,6 +10,13 @@
   <body>
     <button id="black">Click Me!</button>
     <button id="yellow">No, Click Me!</button> <br>
-    <p>Enter your name: </p> <input id="input">
+    <p>Enter your name: </p> <input id="input"> <button onclick="namefunction()">Submit</button>
+    <script>
+      function namefunction(){
+        document.getElementById("placeholder").innerHTML = "Your name is " + document.getElementById("input").value + "!!";
+        alert("Your name is " + document.getElementById("input").value + "!!")
+      }
+    </script>
+    <p id="placeholder"></p>
   </body>
 </html>
