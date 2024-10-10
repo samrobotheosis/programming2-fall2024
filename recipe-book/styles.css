@@ -1,0 +1,39 @@
+.recipe-container{
+    border: solid; 
+    padding:2%;
+    width:96%;
+}
+body{
+    background-color: floralwhite;
+    padding: 2%;
+}
+.biglink{
+    font-size: 50px;
+}
+#fishlink{
+    color: brown;
+}
+#cherrylink{
+    color: red;
+}
+#smashlink{
+    color: black;
+}
+#bigtitle{
+    font-size: 70px;
+}
+.image{
+    border-radius: 30px;
+    margin: 0 25%;
+    width: 50%;
+}
+.sub-ingredient{
+    display: inline-block;
+    vertical-align: top;
+}
+.descpara{
+    width:70%
+}
+.red{
+    color: red;
+}
