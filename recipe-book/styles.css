@@ -1,3 +1,6 @@
+*{
+    font-family: "Afacad Flux", sans-serif;
+}
 .recipe-container{
     border: solid; 
     padding:2%;
@@ -9,14 +12,6 @@ body{
 }
 .biglink{
     font-size: 50px;
-}
-#fishlink{
-    color: brown;
-}
-#cherrylink{
-    color: red;
-}
-#smashlink{
     color: black;
 }
 #bigtitle{
@@ -32,8 +27,26 @@ body{
     vertical-align: top;
 }
 .descpara{
-    width:70%
+    width: 70%
 }
 .red{
     color: red;
+}
+.brown{
+    color: brown;
+}
+.desc{
+    text-align: center
+}
+h1{
+    font-family: "Satisfy", cursive;
+}
+b{
+    font-weight: 800;
+}
+#smile{
+    height: 500px;
+}
+.btn{
+    margin-bottom: 2%
 }
