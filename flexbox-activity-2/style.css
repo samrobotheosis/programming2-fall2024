@@ -5,7 +5,10 @@ you'll learn about it later. */
 body {
     margin: 0;
     background: #eee;
-    font-family: Besley, serif;
+    font-family: "Be Vietnam Pro", sans-serif;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 .header {
@@ -31,7 +34,7 @@ body {
     color: darkseagreen;
     font-size: 32px;
     font-weight: 900;
-    font-style: italic;
+    font-family: "Bungee Shade", sans-serif;
 }
 
 button {
@@ -73,4 +76,19 @@ ul {
 .description {
     display: flex;
     flex-direction: column;
+}
+.item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 200px;
+}
+.column {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.image {
+}
+.label {
 }
