@@ -4,11 +4,11 @@ you'll learn about it later. */
 
 body {
     margin: 0;
-    background: #eee;
     font-family: "Be Vietnam Pro", sans-serif;
     height: 100vh;
     display: flex;
     flex-direction: column;
+    overflow: hidden;
 }
 
 .header {
@@ -69,26 +69,153 @@ ul {
 
 .content {
     display: flex;
+    height: calc(100vh - 87px);
 }
 .gallery {
     display: flex;
+    flex: 5 1 400px;
+    overflow-y: scroll;
 }
 .description {
     display: flex;
     flex-direction: column;
+    flex: 1 1 400px;
+    padding: 20px;
+    border: 2px solid #b94a5a;
+    margin: 10px;
+    border-radius: 10px;
+    align-items: center;
 }
 .item {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 200px;
+    max-width: 100%;
+    height: auto;
 }
 .column {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+    gap: 20px;
 }
 .image {
+    max-width: 100%;
+    height: auto;
 }
-.label {
+#profile-pic {
+    width: 85%;
+}
+#more-info {
+    background-color: lightgray;
+    height: 6%;
+    border-radius: 15px;
+    align-self: stretch;
+    text-align: center;
+}
+
+.buy-content {
+    display: flex;
+    padding: 2%;
+    gap: 1%;
+    height: calc(98vh - 87px - 2%);
+    font-size: 1.3vw;
+}
+
+.shelf {
+    display: flex;
+    flex-direction: column;
+    flex: 2 1 500px;
+    border: solid #b94a5a;
+    gap: 1%;
+    overflow-y: scroll;
+    border-radius: 10px;
+}
+.shelf-item {
+    display: flex;
+    gap: 4%;
+    margin: 2%;
+}
+.shelf-image {
+    flex-grow: 1;
+    flex-shrink: 1;
+    width: 200px;
+}
+.shelf-label {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 2;
+    flex-shrink: 1;
+    justify-content: space-evenly;
+}
+.shelf-info {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    flex-shrink: 1;
+    justify-content: space-evenly;
+}
+.shelf-buy {
+    background-color: #efcdd2;
+    border-radius: 5px;
+    text-align: center;
+    border: solid rgba(185, 74, 90, 0.52) 3px;
+}
+.shelf-price {
+    background-color: #dbffdb;
+    border-radius: 5px;
+    text-align: center;
+}
+.cart {
+    display: flex;
+    flex-direction: column;
+    flex: 1 2 250px;
+    border: solid darkseagreen;
+    gap: 1%;
+    border-radius: 10px;
+}
+.cart-title {
+    align-self: center;
+    font-size: 4vw;
+}
+.cart-content {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    overflow-y: scroll;
+    gap: 1%;
+}
+.cart-item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.cart-image {
+    flex-grow: 1;
+    flex-shrink: 1;
+    width: 70px;
+}
+.cart-name {
+    flex-grow: 2;
+}
+.cart-price {
+    flex-grow: 1;
+}
+.subtotal {
+    display: flex;
+    justify-content: space-around;
+}
+.subtotal-price {
+    background-color: #dbffdb;
+    border-radius: 5px;
+}
+.checkout {
+    text-align: center;
+    background-color: #dbffdb;
+    border-radius: 10px;
+    border: solid rgba(143, 188, 143, 0.5) 3px;
+    width: calc(98% - 6px);
+    margin: 5px;
+    flex-grow: 0.03;
+    font-size: 3vw;
 }
