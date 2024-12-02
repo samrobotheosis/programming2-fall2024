@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Title</title>
+        <script src="script.js"></script>
+    </head>
+    <body>
+        <h1>Your Robot Name</h1>
+
+        <label for="month">Your birth month:</label>
+        <select id="month">
+            <option value="jan">January</option>
+            <option value="feb">February</option>
+            <option value="mar">March</option>
+            <option value="apr">April</option>
+            <option value="may">May</option>
+            <option value="jun">June</option>
+            <option value="jul">July</option>
+            <option value="aug">August</option>
+            <option value="sep">September</option>
+            <option value="oct">October</option>
+            <option value="nov">November</option>
+            <option value="dec">December</option>
+        </select>
+        <br />
+
+        <label for="age">Your age:</label>
+        <input id="age" type="number" />
+        <br />
+
+        <label for="color">Your favorite color:</label>
+        <select id="color">
+            <option value="red">Red</option>
+            <option value="ora">Orange</option>
+            <option value="yel">Yellow</option>
+            <option value="gre">Green</option>
+            <option value="blu">Blue</option>
+            <option value="pur">Purple</option>
+            <option value="pin">Pink</option>
+            <option value="bro">Brown</option>
+            <option value="gra">Gray</option>
+            <option value="whi">White</option>
+            <option value="bla">Black</option>
+        </select>
+        <br />
+
+        <button onclick="generate()">Generate my name</button>
+
+        <p id="name"></p>
+    </body>
+</html>
