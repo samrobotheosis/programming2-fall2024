@@ -1,0 +1,17 @@
+let everyday = ["computer", "notebook", "phone"];
+console.log(everyday);
+everyday.push("folder", "stapler");
+console.log(everyday);
+everyday.pop();
+console.log(everyday);
+everyday.splice(1, 0, "tablet");
+console.log(everyday);
+everyday.splice(2, 1);
+console.log(everyday);
+console.log("---------------------");
+let numbers = [5, 2, 7];
+console.log(numbers);
+numbers.splice(0, 0, 3);
+console.log(numbers);
+numbers.splice(1, 1, 9);
+console.log(numbers);
